@@ -1,13 +1,13 @@
 import codecademylib
 
-# 1
+# 1 import
 import numpy as np
 
-# 2
+# 2 generate DataFrame from csv
 calorie_stats = np.genfromtxt('cereal.csv', delimiter=',')
 # print(calorie_stats)
 
-# 3
+# 3 calculate calorie mean
 comp_average = np.mean(calorie_stats)
 crunchy_average = 60
 average_calories = comp_average - crunchy_average
